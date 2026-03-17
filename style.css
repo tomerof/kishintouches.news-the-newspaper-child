@@ -1,0 +1,17 @@
+/*
+Theme Name: The Newspaper Child
+Theme URI: http://cmsmasters.net/the-newspaper-child/
+Author: cmsmasters
+Author URI: http://cmsmasters.net/
+Description: The Newspaper Child Theme
+Template: the-newspaper
+Version: 1.0.0
+License:
+License URI:
+Text Domain: the-newspaper-child
+Tags: one-column, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-image-header, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+*/
+
+.cmsmasters_posts_slider.post .cmsmasters_owl_slider {
+    padding-top: 0px;
+}
