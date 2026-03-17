@@ -5,7 +5,7 @@ Author: cmsmasters
 Author URI: http://cmsmasters.net/
 Description: The Newspaper Child Theme
 Template: the-newspaper
-Version: 1.0.0
+Version: 1.0.3
 License:
 License URI:
 Text Domain: the-newspaper-child
@@ -13,5 +13,62 @@ Tags: one-column, two-columns, three-columns, four-columns, left-sidebar, right-
 */
 
 .cmsmasters_posts_slider.post .cmsmasters_owl_slider {
-    padding-top: 0px;
+    padding-top: 0;
+}
+
+span.cmsmasters_post_author {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+span.cmsmasters_post_author svg {
+    height: 20px;
+}
+
+.post .cmsmasters_post_cont_info_top {
+    display: none;
+}
+
+.cmsmasters_child_share_wrap {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.cmsmasters_child_share_button {
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    color: #333;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    font-weight: bold;
+    display: inline-flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.cmsmasters_child_share_button svg {
+    height: 20px;
+}
+
+.cmsmasters_child_share_button:hover {
+    background-color: #e1e1e1;
+}
+
+.single-post .content {
+    width: 56.5%;
+}
+
+@media only screen and (max-width: 950px) {
+    .single-post .content_wrap.l_sidebar .sidebar,
+    .single-post .content_wrap.r_sidebar .sidebar,
+    .single-post .content_wrap.l_sidebar .content,
+    .single-post .content_wrap.r_sidebar .content {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
 }
